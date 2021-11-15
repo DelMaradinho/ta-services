@@ -1,0 +1,100 @@
+// @media ( max-width: $resolution-1440 ) {
+//     .header {
+//         display: none;
+//     }
+//     .wrapper {
+//         width: 1200px;
+//     }
+//     .services {
+//         &__section {
+//             &-card {
+//                 max-width: 282px;
+//             }
+//         }
+//         &__image {
+//             width: 282px;
+//             height: 282px;
+//         }
+//     }
+// }
+
+// @media ( max-width: $resolution-1280 ) {
+//     .wrapper {
+//         width: 912px;
+//     }
+//     .services {
+//         &__section {
+//             &-card{
+//                 &:nth-child(3n) {
+//                     margin-right: 0;
+//                 }
+//                 &:nth-child(4n) {
+//                     margin-right: 24px;
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// @media ( max-width: $resolution-960 ) { 
+//     .wrapper {
+//         max-width: 720px;
+//     }
+//     .services {
+//         &__section {
+//             &-card {
+//                 flex-basis: auto;
+//                 flex-grow: 1;
+//                 max-width: 224px;
+//             }
+//         }
+//         &__image {
+//             max-width: 224px;
+//             height: auto;
+//         }
+//     }
+// }
+
+// @media ( max-width: $resolution-768 ) {
+//     .wrapper {
+//         max-width: 288px;
+//     }
+//     .services {
+//         &__title {
+//             margin: 0 0 32px 0;
+//             font-size: 24px;
+//         }
+//         &__section {
+//             &-card {
+//                 max-width: 288px;
+//             }
+//         }
+//         &__image {
+//             max-width: 288px;
+//             height: auto;
+//         }
+//         &__name {
+//             font-size: 18px;
+//         }
+//         &__text {
+//             font-size: 14px;
+//         }
+//     }
+// }
+
+// @media ( max-width: $resolution-320 ) {
+//     .wrapper {
+//         max-width: 90%;
+//     }
+
+//     .services {
+//         &__section {
+//             &-card {
+//                 max-width: 100%;
+//             }
+//         }
+//         &__image {
+//             max-width: 100%;
+//         }
+//     }
+// }

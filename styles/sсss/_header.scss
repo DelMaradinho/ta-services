@@ -44,6 +44,9 @@
   &__search {
     margin-right: 24px;
   }
+  @media ( max-width: $resolution-1440 ) {
+        display: none;
+  }
 }
 .dropdown {
   display: flex;

@@ -7,6 +7,21 @@
 .wrapper {
   width: 1344px;
   margin: 0 auto;
+  @media ( max-width: $resolution-1440 ) {
+        width: 1200px;
+  }
+  @media ( max-width: $resolution-1280 ) {
+        width: 912px;
+  }
+  @media ( max-width: $resolution-960 ) { 
+        max-width: 720px;
+  }
+  @media ( max-width: $resolution-768 ) {
+        max-width: 288px;
+  }
+  @media ( max-width: $resolution-320 ) {
+        max-width: 90%;
+  }
 }
 
 @font-face {
