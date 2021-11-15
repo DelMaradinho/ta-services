@@ -1,12 +1,7 @@
-@media ( max-width: 1440px ) {
+@media ( max-width: $resolution-1440 ) {
     .header {
         display: none;
     }
-    .wrapper {
-        margin: 0 40px;
-    }
-}
-@media ( max-width: 1280px ) {
     .wrapper {
         width: 1200px;
     }
@@ -23,10 +18,9 @@
     }
 }
 
-@media ( max-width: 960px ) {
+@media ( max-width: $resolution-1280 ) {
     .wrapper {
         width: 912px;
-        margin: 0 24px;
     }
     .services {
         &__section {
@@ -42,7 +36,7 @@
     }
 }
 
-@media ( max-width: 768px ) { 
+@media ( max-width: $resolution-960 ) { 
     .wrapper {
         max-width: 720px;
     }
@@ -61,10 +55,9 @@
     }
 }
 
-@media ( max-width: 320px ) {
+@media ( max-width: $resolution-768 ) {
     .wrapper {
-        max-width: 212px;
-        margin: 0 16px;
+        max-width: 288px;
     }
     .services {
         &__title {
@@ -85,6 +78,23 @@
         }
         &__text {
             font-size: 14px;
+        }
+    }
+}
+
+@media ( max-width: $resolution-320 ) {
+    .wrapper {
+        max-width: 90%;
+    }
+
+    .services {
+        &__section {
+            &-card {
+                max-width: 100%;
+            }
+        }
+        &__image {
+            max-width: 100%;
         }
     }
 }
